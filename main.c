@@ -40,7 +40,7 @@ int sum_n(int n){
 
  int main(void) {
 
-   char *intinput = readline("Enter a int: ");
+   char *intinput = readline("Enter an int: ");
    int counter = atoi(intinput);
    printf("sum is %d.\n", sum_n(counter));
    char *stringinput = readline("Enter a string: ");
